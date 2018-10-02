@@ -29,16 +29,16 @@ SNS-icon: #['Facebook', 'weibo', 'qq', 'github', 'Dribbble', 'Twitter', 'instagr
   weixin: '/assets/ding-wechat.jpg' # 你的微信二维码存放的地址
   qq: '/assets/ding-QQ.jpg' # 你的qq二维码存放的地址 or http://wpa.qq.com/msgrd?v=3&uin='你的QQ号'&site=qq&menu=yes
   github: 'https://github.com/DingYonghui'
-  Codepen: ''
-  weibo: ''
-  instagram: ''
+  #Codepen: ''
+  #weibo: ''
+  #instagram: ''
   Twitter: ''
-  Dribbble: ''
-  Facebook: ''
+  #Dribbble: ''
+  #Facebook: ''
   Google: ''
   zhihu: ''
-  juejin: ''
-  twitch: ''
+  #juejin: ''
+  #twitch: ''
 
 # 分页
 paginate: 2
@@ -60,29 +60,39 @@ pygmentsTheme: 'default'
 # 友情链接
 friends:
   jekyll: 'https://www.jekyll.com.cn/'
-  javatribe: 'http://www.javatribe.org/'
+  爪哇部落: 'http://www.javatribe.org/'
 
 # 评论 最佳体验 在disqus、livere和Gitment之间三选一
 # disqus 评论
 disqus: false
 disqus_url: '' # https://abc.disqus.com/embed.js
 # 来必力评论
-livere: true
+livere: false
 livere_uid: '' # MTAyMC8zNDI2OS8xMDgwNg==
 # Gitment评论 OAuth Application
-Gitment: false
-Gitment_owner: ''  # github用户名
-Gitment_repo: ''  # github博客存放的仓库名
-client_id: ''  # 注册 OAuth Application 后获得的 client_id
-client_secret: ''  # 注册 OAuth Application 后获得的 client_secret
+Gitment: true
+Gitment_owner: 'DingYonghui'  # github用户名
+Gitment_repo: 'DingYonghui.github.io'  # github博客存放的仓库名
+client_id: '32484ad346fb03f41b55'  # 注册 OAuth Application 后获得的 client_id
+client_secret: '78ac196c43a1423b1a04a88030bc487100f9b317'  # 注册 OAuth Application 后获得的 client_secret
 
 # Share : weibo, qq, wechat, tencent, douban, qzone, linkedin, diandian, facebook, twitter, google
 social-share: true
-social-share-items: ['qq', 'wechat', 'weibo', 'twitter', 'facebook']
+social-share-items: ['qq', 'wechat']
+#social-share-items: ['qq', 'wechat', 'weibo', 'twitter', 'facebook']
 
 # 百度统计 在baidu-url里填写自己相关的url代码
 baidu: true
-baidu-url: ''
+baidu-url: '<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?cc8f7c008f4862ae7919a469ab99db32";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+'
 # 谷歌分析 在google-ID里填写自己在谷歌分析获得的追踪ID
 google: false
 google-ID: ''
