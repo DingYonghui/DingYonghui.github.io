@@ -1,5 +1,5 @@
 # Site settings 配置站点
-title: '技术与人生'
+title: '丁永辉的个人博客'
 description: '技术与人生，信息安全、算法、Java'
 keywords: '技术与人生、Java、信息安全、算法'
 url: 'http://www.dingyonghui.cn' # your host
@@ -19,7 +19,7 @@ NickName: '黑客与漫画'
 webtitle: '清风明月'
 bio: '晨钟暮鼓，洗尽铅华。' # 个人简介
 about: true
-aboutyou: '热爱生活。热爱技术。'
+aboutyou: '热爱生活，热爱技术。'
 portraits: '/assets/profile.jpg' # your portraits image file path
 
 # SNS
@@ -83,16 +83,7 @@ social-share-items: ['qq', 'wechat']
 
 # 百度统计 在baidu-url里填写自己相关的url代码
 baidu: true
-baidu-url: '<script>
-var _hmt = _hmt || [];
-(function() {
-  var hm = document.createElement("script");
-  hm.src = "https://hm.baidu.com/hm.js?cc8f7c008f4862ae7919a469ab99db32";
-  var s = document.getElementsByTagName("script")[0]; 
-  s.parentNode.insertBefore(hm, s);
-})();
-</script>
-'
+baidu-url: 'https://hm.baidu.com/hm.js?cc8f7c008f4862ae7919a469ab99db32'
 # 谷歌分析 在google-ID里填写自己在谷歌分析获得的追踪ID
 google: false
 google-ID: ''
