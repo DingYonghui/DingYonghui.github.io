@@ -25,21 +25,22 @@ portraits: '/assets/profile.jpg' # your portraits image file path
 # SNS
 SNS: true
 SNS-icon: #['Facebook', 'weibo', 'qq', 'github', 'Dribbble', 'Twitter', 'instagram', 'weixin', 'Codepen']
-  mail: '1214914477@qq.com'
+  github: 'https://github.com/DingYonghui'
+  csdn: 'https://blog.csdn.net/qq_24891153'
   weixin: '/assets/ding-wechat.jpg' # 你的微信二维码存放的地址
   qq: '/assets/ding-QQ.jpg' # 你的qq二维码存放的地址 or http://wpa.qq.com/msgrd?v=3&uin='你的QQ号'&site=qq&menu=yes
-  github: 'https://github.com/DingYonghui'
   #Codepen: ''
   #weibo: ''
   #instagram: ''
-  Twitter: ''
+  #Twitter: ''
   #Dribbble: ''
   #Facebook: ''
   Google: ''
-  zhihu: ''
+  #zhihu: ''
   #juejin: ''
   #twitch: ''
-
+  #mail: '1214914477@qq.com'
+	
 # 分页
 paginate: 5
 paginatepath: ['page:num']
