@@ -40,7 +40,7 @@ SNS-icon: #['Facebook', 'weibo', 'qq', 'github', 'Dribbble', 'Twitter', 'instagr
   #juejin: ''
   #twitch: ''
   #mail: '1214914477@qq.com'
-	
+
 # 分页
 paginate: 5
 paginatepath: ['page:num']
