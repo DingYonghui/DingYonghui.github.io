@@ -8,20 +8,23 @@ cover: '../picture/2018-10-02-index-在GitHubPages搭建个人博客.jpg'
 tags: index
 ---
 
+# 在GitHub Pages搭建个人博客
+
 ## 1 准备工作
 
 ### **1.1 本地安装git**
 
-Git官网：https://git-scm.com/downloads
-Git教程：[廖雪峰的官方网站](https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000)   [菜鸟教程](http://www.runoob.com/git/git-tutorial.html)
+​        Git官网：https://git-scm.com/downloads
 
-本地安装好git，并学习熟悉`git命令`。
+​        Git教程：[廖雪峰的官方网站](https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000)   [菜鸟教程](http://www.runoob.com/git/git-tutorial.html)
+
+​        本地安装好git，并学习熟悉`git命令`。
 
 ### **2.2 注册github账号**
 
-GitHub官网：https://github.com/
+​        GitHub官网：https://github.com/
 
-在Github上注册账号。
+​        在Github上注册账号。
 
 ## 2 开始使用
 
@@ -64,8 +67,6 @@ GitHub官网：https://github.com/
 
 ### **3.2 `_config.yml`定义自己的配置**
 
-**修改 `_config.yml` 文件，便可快速搭建属于你自己的个人博客。一部分配置，默认已经是配置好的，你只需要修改下面列出的内容即可完成搭建。**
-
 #### 配置站点
 
 ```yaml
@@ -76,15 +77,15 @@ keywords: '技术与人生、Java、信息安全、算法'
 url: 'http://www.dingyonghui.cn' # your host
 ```
 
-该部分配置html页面的头部信息。
+​        该部分配置html页面的头部信息。
 
-`title` ：用于页面的 title 标签的显示内容
+​        `title` ：用于页面的 title 标签的显示内容
 
-`description` ：网站的简介
+​        `description` ：网站的简介
 
-`keywords` ：网站的关键词
+​        `keywords` ：网站的关键词
 
-`url` ：网站域名
+​        `url` ：网站域名
 
 #### 博主个人信息
 
@@ -100,11 +101,11 @@ aboutyou: '热爱生活，热爱技术。'
 portraits: '/assets/profile.jpg' # your portraits image file path
 ```
 
-该部分显示在 `关于博主` 页面，与 `社交媒体` 一同显示，如[关于我](http://www.dingyonghui.cn/about.html)所示。
+​        该部分显示在 `关于博主` 页面，与 `社交媒体` 一同显示，如[关于我](http://www.dingyonghui.cn/about.html)所示。
 
-`author`：使用 `true` 或者 `false` 来打开或关闭博主信息卡片，默认 true ，最佳体验也是 true 。
+​        `author`：使用 `true` 或者 `false` 来打开或关闭博主信息卡片，默认 true ，最佳体验也是 true 。
 
-`about`：使用 `true` 或者 `false` 来打开或关闭博主关于信息，即是否显示 `aboutyou` 部分的信息。默认 true ，该部分需要在 aboutyou 中输入相关信息，支持在此填写html代码。
+​        `about`：使用 `true` 或者 `false` 来打开或关闭博主关于信息，即是否显示 `aboutyou` 部分的信息。默认 true ，该部分需要在 aboutyou 中输入相关信息，支持在此填写html代码。
 
 #### 社交媒体
 
@@ -130,7 +131,7 @@ SNS-icon: #['Facebook', 'weibo', 'qq', 'github', 'Dribbble', 'Twitter', 'instagr
 
 ​        只要在需要开启的社交账号的名字后填写你的个人主页链接即可。不需要开启的就在那一行的头部用 # 注释这一行即可。如果需要更换每个图标的排列位置，只需要改变他们的每一行排列的顺序即可。
 
-`SNS`：填写  `true` 或者 `false` 来打开或者关闭这一部分。
+​        `SNS`：填写  `true` 或者 `false` 来打开或者关闭这一部分。
 
 #### 导航栏
 
@@ -154,7 +155,7 @@ paginate: 5
 paginatepath: ['page:num']
 ```
 
-`paginate`：在首页一页最多显示多少篇博客的数字。
+​        `paginate`：在首页一页最多显示多少篇博客的数字。
 
 ​        本地部署的需要使用 `gem install jekyll-paginate` 或 `sudo gem install jekyll-paginate` 安装Jekyll的分页插件。
 
@@ -249,7 +250,7 @@ google-ID: ''
 
 ​	在 `baidu-url` 和 `google-ID` 分别填上注册获取的相关信息。使用 `true` 或者 `false` 开启或关闭他们。  
 
-​       出于中国大陆网络环境，默认开启 百度统计 ，当然可以多开。
+​        出于中国大陆网络环境，默认开启 百度统计 ，当然可以多开。
 
 ### **3.3 `index.html`定义自己的配置**
 
@@ -273,7 +274,7 @@ description: This is my personal blog.
 
 ​	博客通过解析 `markdown` 文件来部署文章页面的，所以用户写文章只需要写一篇markdown，并放置在站点根目录下的 `_post` 文件夹即可。具体的markdown语法自行上网搜索学习，或使用markdown编辑器进行写作。推荐一款 markdown编辑器：[typora](https://www.typora.io) 。支持 windows 、mac OSX 、Linux 。
 
-关于文章 YAML头信息：
+​        关于文章 YAML头信息：
 
 ```yaml
 layout: post
@@ -285,7 +286,7 @@ cover: '../picture/2018-10-02-index-在GitHubPages搭建个人博客.jpg'
 tags: index
 ```
 
-`color`：
+​        `color`：
 
 ​	此处的color用于post页面的顶部位置的背景色。如上面展示图所示为 `rgb(154,133,255)` 色。
 
@@ -293,7 +294,7 @@ tags: index
 
 ​	当然，如果你在书写文章时，忘记写color的值的话，主题默认会为你填写 `rgb(154,133,255)` 色。就是上图显示的颜色。虽然不影响页面的显示，但如果想要更多彩的页面效果的话，建议在每一篇的头信息里写上 color 值。
 
-`cover`：
+​        `cover`：
 
 ​	此处需填写某一张图片的 `url` ，`url` 值可以是线上的某张图片，也可以是博客目录下的图片。关键是要书写正确。这张图片用于在首页下博客列表里显示，如[首页](http://www.dingyonghui.cn/)中博客列表显示的图片。
 
@@ -301,42 +302,35 @@ tags: index
 
 ## 4 参考模板
 
-http://jekyllthemes.org/
-https://github.com/xukimseven/HardCandy-Jekyll
-https://github.com/KeJunMao/jekyll-theme-mdui
-https://github.com/erayaydin/jekyll-bulma
-https://github.com/joytou/joytou.github.io
-https://github.com/suyan/suyan.github.io
-https://github.com/zxixia/jekyll-xixia
-https://github.com/chrisbobbe/jekyll-theme-prologue
-https://github.com/zhisheng17/zhisheng17.github.io
-https://github.com/leopardpan/leopardpan.github.io/
-https://github.com/anTtutu/anTtutu.github.io/
+- http://jekyllthemes.org/
+
+- https://github.com/xukimseven/HardCandy-Jekyll
+- https://github.com/KeJunMao/jekyll-theme-mdui
+- https://github.com/erayaydin/jekyll-bulma
+- https://github.com/joytou/joytou.github.io
+- https://github.com/suyan/suyan.github.io
+- https://github.com/zxixia/jekyll-xixia
+- https://github.com/chrisbobbe/jekyll-theme-prologue
+- https://github.com/zhisheng17/zhisheng17.github.io
+- https://github.com/leopardpan/leopardpan.github.io/
+- https://github.com/anTtutu/anTtutu.github.io/
 
 ## 5 参考博文
 
-1、利用Github Page 搭建个人博客网站
-https://blog.csdn.net/tzs_1041218129/article/details/53214497
-2、创建GitHub技术博客全攻略
-https://blog.csdn.net/renfufei/article/details/37725057/
-3、使用 GitHub, Jekyll 打造自己的免费独立博客
-https://blog.csdn.net/on_1y/article/details/19259435
-4、用 Github + Jekyll 写博客
-https://blog.csdn.net/u014015972/article/details/50497254
-5、搭建Hexo博客中碰到的坑
-https://www.jianshu.com/p/a2fe56d11c4f
-
-6、实现网站统计之百度统计
-https://blog.csdn.net/qq_39579242/article/details/81016477
+- [利用Github Page 搭建个人博客网站](https://blog.csdn.net/tzs_1041218129/article/details/53214497)
+- [创建GitHub技术博客全攻略](https://blog.csdn.net/renfufei/article/details/37725057/)
+- [使用 GitHub, Jekyll 打造自己的免费独立博客](https://blog.csdn.net/on_1y/article/details/19259435)
+- [用 Github + Jekyll 写博客](https://blog.csdn.net/u014015972/article/details/50497254)
+- [搭建Hexo博客中碰到的坑](https://www.jianshu.com/p/a2fe56d11c4f)
+- [实现网站统计之百度统计](https://blog.csdn.net/qq_39579242/article/details/81016477)
 
 ## 7 其他
 
-1、来必力评论
-https://livere.com/
-2、百度统计
-https://blog.csdn.net/qq_39579242/article/details/81016477
-3、markdown工具
-https://www.typora.io/
+- [来必力评论](https://livere.com/)
+- [百度统计](https://blog.csdn.net/qq_39579242/article/details/81016477)
+- [markdown工具](https://www.typora.io/)
+
+
 
 
 
