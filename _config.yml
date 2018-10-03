@@ -59,7 +59,7 @@ pygmentsTheme: 'default'
 
 # 友情链接
 friends:
-  jekyll: 'https://www.jekyll.com.cn/'
+  # jekyll: 'https://www.jekyll.com.cn/'
   爪哇部落: 'http://www.javatribe.org/'
 
 # 评论 最佳体验 在disqus、livere和Gitment之间三选一
