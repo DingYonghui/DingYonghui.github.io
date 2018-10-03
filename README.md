@@ -1,1 +1,4 @@
-## 在GitHub Pages搭建的个人博客
+闲暇之余，搭建了个博客。
+
+具体搭建教程见[在GitHub Pages搭建个人博客](http://www.dingyonghui.cn/2018/10/02/index-%E5%9C%A8GitHub-Pages%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2.html)
+
