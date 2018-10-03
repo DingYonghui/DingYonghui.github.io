@@ -72,7 +72,7 @@ livere_uid: '' # MTAyMC8zNDI2OS8xMDgwNg==
 # Gitment评论 OAuth Application
 Gitment: true
 Gitment_owner: 'DingYonghui'  # github用户名
-Gitment_repo: 'DingYonghui.github.io'  # github博客存放的仓库名
+Gitment_repo: 'https://github.com/DingYonghui/DingYonghui.github.io.gitment.git'  # github博客存放的仓库名
 client_id: '32484ad346fb03f41b55'  # 注册 OAuth Application 后获得的 client_id
 client_secret: '78ac196c43a1423b1a04a88030bc487100f9b317'  # 注册 OAuth Application 后获得的 client_secret
 
@@ -83,7 +83,7 @@ social-share-items: ['qq', 'wechat']
 
 # 百度统计 在baidu-url里填写自己相关的url代码
 baidu: true
-baidu-url: 'https://hm.baidu.com/hm.js?cc8f7c008f4862ae7919a469ab99db32'
+baidu-url: 'cc8f7c008f4862ae7919a469ab99db32'
 # 谷歌分析 在google-ID里填写自己在谷歌分析获得的追踪ID
 google: false
 google-ID: ''
