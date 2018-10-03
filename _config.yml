@@ -67,14 +67,14 @@ friends:
 disqus: false
 disqus_url: '' # https://abc.disqus.com/embed.js
 # 来必力评论
-livere: false
-livere_uid: '' # MTAyMC8zNDI2OS8xMDgwNg==
+livere: true
+livere_uid: 'MTAyMC80MDEwMi8xNjYyOQ==' # MTAyMC8zNDI2OS8xMDgwNg==
 # Gitment评论 OAuth Application
-Gitment: true
+Gitment: false
 Gitment_owner: 'DingYonghui'  # github用户名
 Gitment_repo: 'DingYonghui.github.io.gitment'  # github博客存放的仓库名
-client_id: '32484ad346fb03f41b55'  # 注册 OAuth Application 后获得的 client_id
-client_secret: '78ac196c43a1423b1a04a88030bc487100f9b317'  # 注册 OAuth Application 后获得的 client_secret
+client_id: ''  # 注册 OAuth Application 后获得的 client_id
+client_secret: ''  # 注册 OAuth Application 后获得的 client_secret
 
 # Share : weibo, qq, wechat, tencent, douban, qzone, linkedin, diandian, facebook, twitter, google
 social-share: true
