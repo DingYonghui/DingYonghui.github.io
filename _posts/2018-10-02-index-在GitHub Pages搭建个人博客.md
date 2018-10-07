@@ -303,7 +303,6 @@ tags: index
 ## 4 参考模板
 
 - http://jekyllthemes.org/
-
 - https://github.com/xukimseven/HardCandy-Jekyll
 - https://github.com/KeJunMao/jekyll-theme-mdui
 - https://github.com/erayaydin/jekyll-bulma
@@ -327,7 +326,7 @@ tags: index
 ## 7 其他
 
 - [来必力评论](https://livere.com/)
-- [百度统计](https://blog.csdn.net/qq_39579242/article/details/81016477)
+- [百度统计](https://tongji.baidu.com/web/welcome/login)
 - [markdown工具](https://www.typora.io/)
 
 
